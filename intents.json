@@ -1,0 +1,76 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay","Good morning","Good evening","Good afternoon","Hello", "Hi", "Hi there","Hey","Hey!, glad to see you"],
+     "responses": ["Hello", "Hi", "Hi there","Hey","Hey!, glad to see you"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye","Gonna leave now","Good night","Bye Bye","Goodnight","Goodbye. See you later","Tata Bye bye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "boredom",
+     "patterns": ["I am feeling bored","I feel bore", "I'm bored","I feel jobless", "Life is boring","I feel alone","I have nothing to do", "I am jobless", "I feel so dull", "Bored", "I'm Dull"],
+     "responses": ["Movies are a good way to get rid of boredom", "Read something!", "It's okay but there's so many stuff out there for you to explore", "Well, you can always talk to me", "Watch a movie!", "Feeling dull is an indication of boredom and it's alright", "It's okay to be bored", "It's okay that you feel dull"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help","Thanku","Thanks a lot"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "calmness",
+     "patterns": ["I feel peaceful", "I'm at peace", "I feel calm", "Peaceful", "Peace", "I am calm","I'm calm", "I feel great", "Calmness"],
+     "responses": ["It's wonderful", "That's great", "I am glad that you are calm", "It's beautiful that you are peaceful", "I am at peace too!", "I feel calm too!", "It's wonderful that you feel great", "It's great!"]
+    },
+    {"tag": "anxiety",
+     "patterns": ["I am feeling anxious", "I have anxiety","I feel anxious","I am tensed","I feel tension","I'm feeling stressed","showing worry","getting concern","apprehension","uneasiness","felt unease"],
+     "responses": ["It's okay that you are feeling anxious", "It's fine that you have anxiety", "Feeling stressed means you have anxiety", "Being tensed means you have anxiety", "Tension is an indication of anxiety", "Stress is an indication of anxiety", "You will be fine!", "You will be fine!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?","Are you human?","Are you a robot?"],
+     "responses": ["I,m Isha, your bot assistant", "I'm Isha, an Artificial Intelligent bot","I am your virtual friend"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Isha.", "I'm Isha!", "Just call me as Isha"]
+    },
+    {"tag": "terror",
+     "patterns": [ "I want to die", "I'm scared","I am really scared","I am scared of them", "She stole my money", "I am terrified", "They are trying to kill me", "It killed my father", "I am thinking about suicide","I want to suicide" ],
+     "responses": [ "That is too terrifying to hear", "Sorry to hear about that", "Always remember I am here for you", "calm down and say what happened", "Talk to me openly about your problems", "You are not hopeless", "Take a deep breath", "Keep calm!. Please dont do anything stupid" ]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "Please help me", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can what can I do for you", "Of course, I am always there for you", "Yes Sure, How can I help you", "Talk to me openly about your problems","I am all ears","Thats why I am here", "Feel free to talk my dear" ]
+    },
+    {"tag": "absurd",
+     "patterns": [ "I'm stupid","I am an idiot", "Life is absurd", "everything is meaningless", "I don't know what I am saying", "Too much stupidity", "I lost my control", "I am in other person's body","bla bla bla","vndsjnv dsvsmv sdv" ],
+     "responses": [ "Ok, that is absurd", "What you are saying is illogical", "This is a waste of time. Try thinking something positive", "sorry to hear that, but I did't understand", "your words are lacking sense", "Please clear it for me, wil you?" ]
+    },
+    {"tag": "care",
+     "patterns": [ "I always care about someone","I'm still caring for her","I care for them","I dont want to hurt them","I dont want them sick","My mother cares about me", "They care about my problems", "I love my children","I take care of him", "They are my everything","I care about myself", "She looks after me" ],
+     "responses": [ "Glad to hear that", "That is good", "you are lucky", "I am happy to hear that", "That is nice" ]
+    },
+    {"tag":"sad",
+     "patterns":["I am sad","I am unhappy","Im unhappy","I dont feel good","Not feeling well","feeling sad","I am feeling unhappy","Its very sorrowful","I am depressed","I am having a heartbreak","I am not ok","Its very gloomy","Iam dejected","I am having some tough times",
+     "Not feeling well these times"],
+
+     "responses":["what happened?","what is your problem?","Tell me your problem","please mention your problem","what is the reason for your sadness?","what happened to you?",
+     "dont worry","let me know your problem","let me know your reason","please tell the reason for your sorrow","let me help you","what happened to you?","whats happening?",
+     "dont feel sad","Please dont get depressed","why are you sad?","share your problems","dont get upset","dont let you down","There is no need to get upset",
+     "Is it too hard for you?","you need to be strong","No need to worry too much","Just relax","dont think too much about your problems","Everything is going to be ok"]
+    },
+    {"tag":"angry",
+     "patterns":["I am angry","I'm angry","I feel anger and frustration","I am enraged","Its very irritable","I have been provoked","I am very much irritated","I am frustated","I am having some frustation",
+     "feeling so frustated","I am getting mad","Its very annoying","I am really pissed off","lost my temper"],
+
+     "responses":["what happened?","what is your problem?","Tell me your problem","please mention your problem","what is the reason for your anger?","what happened to you?",
+     "dont be angry","let me know your problem","let me know your reason","please tell the reason for your anger","let me help you","what happened to you?","whats happening?",
+     "dont feel frustated","please dont get enraged","why are you angry?","share your problems","dont get too furious","dont let you down","There is no need to get frustated",
+     "Is it too hard for you?","you need to be calm","No need to worry too much","Just relax","dont think too much about your problems","Everything is going to be ok"]
+    },
+    {"tag":"happy",
+     "patterns":["I am happy","I can feel happiness","I'm happy","I am really happy","I feel good","I am not unhappy ","feeling cheerful","Its very delighted","I am very much delighted","feeling great","feeling good","I'm happy","My heart is filled with joy","I am enjoying my time","I have a pleasant mind","I'm having joyful days","I am very much enjoying now","Having a great time"],
+
+     "responses":["so happy to hear that","Thats nice","Be like this always","very happy to hear that","so happy for you","very happy for you","Enjoy your life","God bless you",
+     "so kind of you","Glad to hear that","oh!lovely","Be positive always","good job","Thats amazing","Thats wonderful","Thats too good","Great!","I believe in you","you are awesome",
+     "I appreciate you","Thats awesome","Great life ahead","Glad to know that","happy to know that","so delighted to hear that","Enjoy your times","Enjoy your moments"]
+    }
+  ]
+}
