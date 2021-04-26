@@ -256,4 +256,4 @@ iface = gr.Interface(fn=greet,
                      allow_flagging = True,
                      allow_screenshot = False,
                      flagging_dir= os.path.join(current_dir,'flagged'))
-iface.launch(share = True, debug = True)
+iface.launch(share = True)
