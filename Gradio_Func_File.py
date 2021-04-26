@@ -3,7 +3,7 @@ import json
 import numpy as np
 import string
 from tensorflow import keras
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 from sklearn.preprocessing import LabelEncoder
 import random
 import pickle
